@@ -1,13 +1,17 @@
 package book;
 
 public class Title {
-   private String title;
+    private String title;
 
-    void show(){
+    void show() {
         System.out.println(title);
     }
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
     }
 }
